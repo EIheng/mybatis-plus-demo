@@ -1,0 +1,18 @@
+server:
+  port: 9908
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test1
+    username: root
+    password: 123456
+  servlet:
+    multipart:
+      max-file-size: 3MB
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+sa-token:
+  is-read-cookie: false
+  token-name: token
+
